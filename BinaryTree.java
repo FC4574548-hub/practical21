@@ -6,4 +6,19 @@ class BinaryTree<E> {
         this.root = root;
         this.size = 1;
     }
+
+    public int getSize(){
+        return size;
+    }
+    public BinaryTreeNode<E> getRoot(){
+        return root;
+    }
+    public void setSize(int size){
+        this.size = size;
+    }
+    public void setRoot(BinaryTreeNode<E> root){
+        this.root = root;
+    }
+
+    
 }
