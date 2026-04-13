@@ -2,6 +2,11 @@ class BinaryTree<E> {
     int size;
     BinaryTreeNode<E> root;
 
+    public BinaryTree(){
+        this.size = 0;
+        this.root = null;
+    }
+
     public BinaryTree(BinaryTreeNode<E> root){
         this.root = root;
         this.size = 1;
