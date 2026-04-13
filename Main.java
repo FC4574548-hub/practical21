@@ -29,6 +29,10 @@ public class Main {
     bt2.setRoot(n1);
     bt2.setSize(4);
 
+    //Test case
+    System.out.println("Tree 1 root: " + bt1.getRoot().getValue());
+    System.out.println("Tree 2 root: " + bt2.getRoot().getValue());
+
     
   }
 }
